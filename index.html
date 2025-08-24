@@ -15,34 +15,21 @@
     h1 {
       color: #ffcc00;
     }
-    .player {
+    audio {
       margin-top: 30px;
-    }
-    a {
-      color: #ffcc00;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-    a:hover {
-      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <h1>🎵 Estación AMJ 🎵</h1>
-  <p>Bienvenido a nuestra radio online. ¡Escucha música y contenido educativo desde cualquier lugar!</p>
+  <p>Escucha nuestra radio online directamente desde esta página:</p>
 
-  <div class="player">
-    <!-- Incrustar el reproductor oficial de Listen2MyRadio -->
-    <iframe src="https://estacionamj.radio12345.com" width="300" height="150" frameborder="0" allow="autoplay"></iframe>
-  </div>
-
-  <div class="links" style="margin-top: 20px;">
-    <p>Otros enlaces para escuchar:</p>
-    <a href="https://estacionamj.radio12345.com" target="_blank">Radio12345</a>
-    <a href="https://estacionamj.radiostream321.com" target="_blank">Radiostream321</a>
-    <a href="https://estacionamj.radiostream123.com" target="_blank">Radiostream123</a>
-  </div>
+  <audio controls autoplay>
+    <source src="https://cors-anywhere.herokuapp.com/http://uk24freenew.listen2myradio.com:4673/" type="audio/mpeg">
+    Tu navegador no soporta el elemento de audio.
+  </audio>
 </body>
 </html>
+
+
 
